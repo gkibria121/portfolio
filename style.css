@@ -157,8 +157,10 @@ nav ul li a:hover {
 
 /* About Section */
 #about {
-    background-color: white;
-    color: var(--dark-color);
+    background-color: white; 
+}
+body.dark-mode #about {
+    background-color: var( --dark-color); 
 }
 
 .about-content {
